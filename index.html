@@ -36,9 +36,11 @@
 <body data-bs-spy="scroll" data-bs-target="#header-nav" tabindex="0">
 
 
-    <nav class="navbar fixed-top navbar-expand-lg container-fluid p-4">
+    <nav class="navbar fixed-top navbar-expand-lg container-fluid p-4" style="max-height: 100px;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="images/main-logo-light.png" alt="logo"></a>
+            <a class="navbar-brand" href="index.html">
+                <img src="images/main-logo-light.png" class="img-fluid" alt="logo">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar">
                 <iconify-icon icon="system-uicons:menu-hamburger" class="hamburger-menu"></iconify-icon>
@@ -105,8 +107,7 @@
                                 href="#price">Fiyatlarımız</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white text-uppercase  mx-2 px-3 mb-2 mb-lg-0"
-                                href="#">İletişim</a>
+                            <a class="nav-link text-white text-uppercase  mx-2 px-3 mb-2 mb-lg-0" href="#">İletişim</a>
                         </li>
                         <!-- <li class="nav-item">
                             <a class="nav-link text-white text-uppercase  mx-2 px-3 mb-2 mb-lg-0" href="#">Contact</a>
@@ -204,67 +205,33 @@
                 <div class="row">
                     <div class="col-md-6 col-lg-3">
                         <div class="py-3 py-md-5 px-3">
-                            <h4 class="mb-3"> <span class="heading-color">01.</span> Temizleme</h4>
-                            <p>Eget magna fermentum iaculis diam phasellus vestibulum lorem eget mauris pharetra et.
+                            <h4 class="mb-3"> Boya Koruma İşlemi</h4>
+                            <p>Boya koruma işlemi temel olarak aracın renginin deforme olmasını ya da çizik gibi
+                                istenmeyen sonuçların ortaya çıkmasını engelleyip ve aracın ilk günkü parlaklığına
+                                dönmesini sağlayan işlemdir
                             </p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="py-3 py-md-5 px-3">
-                            <h4 class="mb-3"> <span class="heading-color">02.</span> Pasta Cila</h4>
-                            <p>Velit sed ante in nisl amet sapien. Mauris a ullamcorper ut iaculis. Et massa non eu ac
-                                tristique.
+                            <h4 class="mb-3"> Seramik Kaplama</h4>
+                            <p>Seramik kaplama, aracın orijinal boyası üzerine uygulanan ve yüzeyde ikinci bir tabaka
+                                oluşturarak aracın orijinal boyasının zarar görmesini engelleyen bir işlemdir
                             </p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="py-3 py-md-5 px-3">
-                            <h4 class="mb-3"> <span class="heading-color">03.</span> Detaylı Temizlik</h4>
-                            <p>In tincidunt in tortor ligula risus nulla blandit eget mauris ete pharetraeget etem.</p>
+                            <h4 class="mb-3"> Detaylı Temizlik</h4>
+                            <p>Oto Kuaför veya Detaylı Temizlik; arabamızın içinde zamanla veya bir şeylerin dökülmesi,
+                                sürülmesi sonucu oluşan toz, kir, koku ve lekelerin yıkanarak temizlenmesi, kurutulması
+                                ve bakımlarının yapılması işlemidir.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="py-3 py-md-5 px-3">
-                            <h4 class="mb-3"> <span class="heading-color">04.</span> Boya Koruma</h4>
-                            <p>Mauris a ullamcorper ut iaculis. Et massa non eu ac tristique ligula risus egestas
-                                consectetur.
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div style="overflow: hidden;">
-            <div class="container" data-aos="zoom-out">
-                <div class="row">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="py-3 py-md-5 px-3">
-                            <h4 class="mb-3"> <span class="heading-color">01.</span> Temizleme</h4>
-                            <p>Eget magna fermentum iaculis diam phasellus vestibulum lorem eget mauris pharetra et.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="py-3 py-md-5 px-3">
-                            <h4 class="mb-3"> <span class="heading-color">02.</span> Pasta Cila</h4>
-                            <p>Velit sed ante in nisl amet sapien. Mauris a ullamcorper ut iaculis. Et massa non eu ac
-                                tristique.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="py-3 py-md-5 px-3">
-                            <h4 class="mb-3"> <span class="heading-color">03.</span> Detaylı Temizlik</h4>
-                            <p>In tincidunt in tortor ligula risus nulla blandit eget mauris ete pharetraeget etem.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="py-3 py-md-5 px-3">
-                            <h4 class="mb-3"> <span class="heading-color">04.</span> Boya Koruma</h4>
-                            <p>Mauris a ullamcorper ut iaculis. Et massa non eu ac tristique ligula risus egestas
-                                consectetur.
+                            <h4 class="mb-3"> PPF Kaplama</h4>
+                            <p>PPF Kaplama (Paint Protection Film), yani boya koruma filmi, araçların dış yüzeylerini korumak için kullanılan bir poliüretan film kaplama türüdür.
                             </p>
                         </div>
                     </div>
@@ -272,6 +239,7 @@
                 </div>
             </div>
         </div>
+
 
     </section>
 
@@ -403,463 +371,6 @@
 
     </section>
 
-    <section id="price" class="my-5">
-        <div style="overflow: hidden;">
-            <div class="container py-5" data-aos="zoom-out">
-
-                <p class="header-top">Fiyatlarımız</p>
-                <h2 class="display-4 mb-5 ">Fiyatlarımız</h2>
-
-                <ul class="nav nav-tabs my-3" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link me-4 px-4 py-1 mb-2 active" id="regular-tab" data-bs-toggle="tab"
-                            data-bs-target="#regular-tab-pane" type="button" role="tab" aria-controls="regular-tab-pane"
-                            aria-selected="true">regular</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link me-4 px-4 py-1 mb-2" id="medium-tab" data-bs-toggle="tab"
-                            data-bs-target="#medium-tab-pane" type="button" role="tab" aria-controls="medium-tab-pane"
-                            aria-selected="false">medium</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link me-4 px-4 py-1 mb-2" id="van-tab" data-bs-toggle="tab"
-                            data-bs-target="#van-tab-pane" type="button" role="tab" aria-controls="van-tab-pane"
-                            aria-selected="false">mini van</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link me-4 px-4 py-1 mb-2" id="truck-tab" data-bs-toggle="tab"
-                            data-bs-target="#truck-tab-pane" type="button" role="tab" aria-controls="truck-tab-pane"
-                            aria-selected="false">pickup
-                            truck</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link me-4 px-4 py-1 mb-2" id="cargo-tab" data-bs-toggle="tab"
-                            data-bs-target="#cargo-tab-pane" type="button" role="tab" aria-controls="cargo-tab-pane"
-                            aria-selected="false">cargo
-                            truck</button>
-                    </li>
-
-                </ul>
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="regular-tab-pane" role="tabpanel"
-                        aria-labelledby="regular-tab" tabindex="0">
-                        <div class="row py-4">
-                            <div class="col-lg-3 pb-4">
-                                <div class="py-5 plan-post text-center">
-
-                                    <p class="header-top">Basic</p>
-                                    <h2 class="display-5 mb-5">$16.95</h2>
-                                    <div class="price-option">
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
-                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
-                                    </div>
-
-                                    <!-- <a href="booking.html" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Book now
-                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
-                                    </a> -->
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 pb-4">
-                                <div class="py-5 plan-post text-center">
-
-                                    <p class="header-top">Deluxe</p>
-                                    <h2 class="display-5 mb-5">$29.50</h2>
-                                    <div class="price-option">
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
-                                        <p><span class="price-tick">✓</span> Velit mir</p>
-                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
-                                    </div>
-
-                                    <!-- <a href="booking.html" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Book now
-                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
-                                    </a> -->
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 pb-4">
-                                <div class="py-5 plan-post text-center">
-
-                                    <p class="header-top">Ultimate</p>
-                                    <h2 class="display-5 mb-5">$44.40</h2>
-                                    <div class="price-option">
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
-                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Ipsum dolor</p>
-                                    </div>
-
-                                    <!-- <a href="booking.html" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Book now
-                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
-                                    </a> -->
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 pb-4">
-                                <div class="py-5 plan-post text-center">
-
-                                    <p class="header-top">ultra ultimate</p>
-                                    <h2 class="display-5 mb-5">$70.50</h2>
-                                    <div class="price-option">
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
-                                        <p><span class="price-tick">✓</span> It ir ivamus</p>
-                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> lit mir iamus</p>
-                                    </div>
-
-                                    <!-- <a href="booking.html" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Book now
-                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
-                                    </a> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="medium-tab-pane" role="tabpanel" aria-labelledby="medium-tab"
-                        tabindex="0">
-                        <div class="row py-4">
-                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
-                                data-aos-delay="0">
-                                <div class="py-5 plan-post text-center">
-
-                                    <p class="header-top">Basic</p>
-                                    <h2 class="display-5 mb-5">$18.95</h2>
-                                    <div class="price-option">
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
-                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
-                                    </div>
-
-                                    <!-- <a href="booking.html" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Book now
-                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
-                                    </a> -->
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
-                                data-aos-delay="300">
-                                <div class="py-5 plan-post text-center">
-
-                                    <p class="header-top">Deluxe</p>
-                                    <h2 class="display-5 mb-5">$30.50</h2>
-                                    <div class="price-option">
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
-                                        <p><span class="price-tick">✓</span> Velit mir</p>
-                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
-                                    </div>
-
-                                    <!-- <a href="booking.html" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Book now
-                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
-                                    </a> -->
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
-                                data-aos-delay="600">
-                                <div class="py-5 plan-post text-center">
-
-                                    <p class="header-top">Ultimate</p>
-                                    <h2 class="display-5 mb-5">$49.40</h2>
-                                    <div class="price-option">
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
-                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Ipsum dolor</p>
-                                    </div>
-
-                                    <!-- <a href="booking.html" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Book now
-                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
-                                    </a> -->
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
-                                data-aos-delay="900">
-                                <div class="py-5 plan-post text-center">
-
-                                    <p class="header-top">ultra ultimate</p>
-                                    <h2 class="display-5 mb-5">$80.50</h2>
-                                    <div class="price-option">
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
-                                        <p><span class="price-tick">✓</span> It ir ivamus</p>
-                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> lit mir iamus</p>
-                                    </div>
-
-                                    <!-- <a href="booking.html" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Book now
-                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
-                                    </a> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="van-tab-pane" role="tabpanel" aria-labelledby="van-tab" tabindex="0">
-                        <div class="row py-4">
-                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
-                                data-aos-delay="0">
-                                <div class="py-5 plan-post text-center">
-
-                                    <p class="header-top">Basic</p>
-                                    <h2 class="display-5 mb-5">$20.95</h2>
-                                    <div class="price-option">
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
-                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
-                                    </div>
-
-                                    <!-- <a href="booking.html" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Book now
-                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
-                                    </a> -->
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
-                                data-aos-delay="300">
-                                <div class="py-5 plan-post text-center">
-
-                                    <p class="header-top">Deluxe</p>
-                                    <h2 class="display-5 mb-5">$33.50</h2>
-                                    <div class="price-option">
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
-                                        <p><span class="price-tick">✓</span> Velit mir</p>
-                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
-                                    </div>
-
-                                    <!-- <a href="booking.html" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Book now
-                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
-                                    </a> -->
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
-                                data-aos-delay="600">
-                                <div class="py-5 plan-post text-center">
-
-                                    <p class="header-top">Ultimate</p>
-                                    <h2 class="display-5 mb-5">$54.40</h2>
-                                    <div class="price-option">
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
-                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Ipsum dolor</p>
-                                    </div>
-
-                                    <!-- <a href="booking.html" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Book now
-                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
-                                    </a> -->
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
-                                data-aos-delay="900">
-                                <div class="py-5 plan-post text-center">
-
-                                    <p class="header-top">ultra ultimate</p>
-                                    <h2 class="display-5 mb-5">$90.50</h2>
-                                    <div class="price-option">
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
-                                        <p><span class="price-tick">✓</span> It ir ivamus</p>
-                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> lit mir iamus</p>
-                                    </div>
-
-                                    <!-- <a href="booking.html" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Book now
-                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
-                                    </a> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="truck-tab-pane" role="tabpanel" aria-labelledby="truck-tab"
-                        tabindex="0">
-                        <div class="row py-4">
-                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
-                                data-aos-delay="0">
-                                <div class="py-5 plan-post text-center">
-
-                                    <p class="header-top">Basic</p>
-                                    <h2 class="display-5 mb-5">$30.95</h2>
-                                    <div class="price-option">
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
-                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
-                                    </div>
-
-                                    <!-- <a href="booking.html" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Book now
-                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
-                                    </a> -->
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
-                                data-aos-delay="300">
-                                <div class="py-5 plan-post text-center">
-
-                                    <p class="header-top">Deluxe</p>
-                                    <h2 class="display-5 mb-5">$40.50</h2>
-                                    <div class="price-option">
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
-                                        <p><span class="price-tick">✓</span> Velit mir</p>
-                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
-                                    </div>
-
-                                    <!-- <a href="booking.html" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Book now
-                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
-                                    </a> -->
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
-                                data-aos-delay="600">
-                                <div class="py-5 plan-post text-center">
-
-                                    <p class="header-top">Ultimate</p>
-                                    <h2 class="display-5 mb-5">$68.40</h2>
-                                    <div class="price-option">
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
-                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Ipsum dolor</p>
-                                    </div>
-
-                                    <!-- <a href="booking.html" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Book now
-                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
-                                    </a> -->
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
-                                data-aos-delay="900">
-                                <div class="py-5 plan-post text-center">
-
-                                    <p class="header-top">ultra ultimate</p>
-                                    <h2 class="display-5 mb-5">$101.50</h2>
-                                    <div class="price-option">
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
-                                        <p><span class="price-tick">✓</span> It ir ivamus</p>
-                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> lit mir iamus</p>
-                                    </div>
-
-                                    <!-- <a href="booking.html" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Book now
-                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
-                                    </a> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="cargo-tab-pane" role="tabpanel" aria-labelledby="cargo-tab"
-                        tabindex="0">
-                        <div class="row py-4">
-                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
-                                data-aos-delay="0">
-                                <div class="py-5 plan-post text-center">
-
-                                    <p class="header-top">Basic</p>
-                                    <h2 class="display-5 mb-5">$50.95</h2>
-                                    <div class="price-option">
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
-                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
-                                    </div>
-
-                                    <!-- <a href="booking.html" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Book now
-                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
-                                    </a> -->
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
-                                data-aos-delay="300">
-                                <div class="py-5 plan-post text-center">
-
-                                    <p class="header-top">Deluxe</p>
-                                    <h2 class="display-5 mb-5">$78.50</h2>
-                                    <div class="price-option">
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
-                                        <p><span class="price-tick">✓</span> Velit mir</p>
-                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
-                                    </div>
-
-                                    <!-- <a href="booking.html" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Book now
-                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
-                                    </a> -->
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
-                                data-aos-delay="600">
-                                <div class="py-5 plan-post text-center">
-
-                                    <p class="header-top">Ultimate</p>
-                                    <h2 class="display-5 mb-5">$97.40</h2>
-                                    <div class="price-option">
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
-                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Ipsum dolor</p>
-                                    </div>
-
-                                    <!-- <a href="booking.html" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Book now
-                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
-                                    </a> -->
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
-                                data-aos-delay="900">
-                                <div class="py-5 plan-post text-center">
-
-                                    <p class="header-top">ultra ultimate</p>
-                                    <h2 class="display-5 mb-5">$150.50</h2>
-                                    <div class="price-option">
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
-                                        <p><span class="price-tick">✓</span> It ir ivamus</p>
-                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
-                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                        <p><span class="price-tick">✓</span> lit mir iamus</p>
-                                    </div>
-
-                                    <!-- <a href="booking.html" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Book now
-                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
-                                    </a> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
     <!-- <section id="blog" class="my-5">
         <div style="overflow: hidden;">
             <div class="container  py-5" data-aos="zoom-out">
@@ -958,8 +469,7 @@
                     </div>
                     <div class="col-md-4 text-center padding-medium border-end">
                         <p class="header-top mb-4">Çalışma Saatleri</p>
-                        <p class="mb-2">P.tesi - Cuma: 09:00 - 18:00</p>
-                        <p class="mb-2">Cumartesi: 09:00 - 13:00</p>
+                        <p class="mb-2">P.tesi - Cumartesi: 08:00 - 18:00</p>
                         <p class="mb-2">Pazar: Kapalı</p>
                     </div>
                     <div class="col-md-4 text-center padding-medium">
@@ -1069,10 +579,9 @@
 
         <footer class="d-flex flex-wrap justify-content-between align-items-center border-top"></footer>
 
-        <div class="container">
+        <!-- <div class="container">
             <footer class="d-flex flex-wrap justify-content-between align-items-center py-2 pt-4">
                 <div class="col-md-6 d-flex align-items-center">
-                    <!-- <p>© 2023 Turbo, Carwash | All Rights Reserved</p> -->
 
                 </div>
                 <div class="col-md-6 d-flex align-items-center justify-content-end">
@@ -1081,7 +590,7 @@
                 </div>
 
             </footer>
-        </div>
+        </div> -->
     </section>
 
 
